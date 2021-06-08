@@ -2,7 +2,7 @@ import re
 
 
 print("""
-  Hello , and welcome to my funny and enjoyable game 
+   Hello , and welcome to my funny and enjoyable game 
    all you need to do is to answer the questions that will appear to you
 """)
 
