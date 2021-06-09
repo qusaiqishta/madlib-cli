@@ -13,8 +13,14 @@ print("""
 """
 
 def  read_template(path):
-    with open(path,'r') as file:
-        print(file.read())
+    try: 
+        with open(path,'r') as file:
+            content=file.read() 
+
+    except FileNotFoundError: 
+        return('File not found')
+
+    return content
 
 
 """
